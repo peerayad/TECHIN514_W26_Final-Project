@@ -5,7 +5,7 @@
 
 ---------
 
-## Sensor Device: Ankle Strap Motion Sensor
+## 1.Sensor Device: Ankle Strap Motion Sensor
 
 The ankle strap is a wearable sensor device built on a custom-designed PCB. It is designed to be lightweight and compact while reliably detecting walking motion and communicating wirelessly with the bedside alarm unit.
 
@@ -34,7 +34,7 @@ The custom PCB integrates a 3.7V 100mAh LiPo battery with onboard charging and r
 
 ------
 
-## Display Device: Bedside Alarm Unit
+## 2.Display Device: Bedside Alarm Unit
 
 The display device is a bedside alarm unit responsible for alerting the user and confirming when the walking requirement has been completed. It receives walking status data from the ankle strap sensor and controls the alarm behavior.
 
