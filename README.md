@@ -1,7 +1,7 @@
 # TECHIN514_W26_Final-Project
 ## Project Title: Motion-Activated Wake-Up Alarm System
 
-#### Description: An alarm clock system with an ankle-worn strap that uses an accelerometer to detect walking movement. The alarm continues ringing until the user gets out of bed and walks for three consecutive minutes, ensuring they are fully awake before the alarm stops.
+ An alarm clock system with an ankle-worn strap that uses an accelerometer to detect walking movement. The alarm continues ringing until the user gets out of bed and walks for three consecutive minutes, ensuring they are fully awake before the alarm stops.
 
 ---------
 
@@ -11,26 +11,17 @@ The ankle strap is a wearable sensor device built on a custom-designed PCB. It i
 
 ### Hardware Components
 
-Microcontroller: Seeed Studio XIAO ESP32-C3 (Bluetooth Low Energy)
+- Microcontroller: Seeed Studio XIAO ESP32-C3 (Bluetooth Low Energy)
+- Accelerometer: LIS3DH 3-axis accelerometer
+- Battery: 3.7V 100mAh LiPo battery (with protection circuit)
 
-Accelerometer: LIS3DH 3-axis accelerometer
-
-Battery: 3.7V 100mAh LiPo battery (with protection circuit)
-
-Charging IC: MCP73831
-
-Voltage Regulation: 3.3V low-dropout regulator (LDO)
-
-Connector: JST-PH 2-pin battery connector
-
-Additional components: power switch, decoupling capacitors
 
 ### How It Works
 
 The LIS3DH accelerometer measures 3-axis motion data to detect walking activity. The ESP32-C3 processes this data and determines whether continuous walking is occurring. When walking is detected, the device tracks elapsed walking time and transmits status updates to the display unit using Bluetooth Low Energy (BLE). Power consumption is minimized through motion-based interrupts and deep sleep modes.
 
 ### Power Design
-The custom PCB integrates a 3.7V 100mAh LiPo battery with onboard charging and regulation. This battery capacity provides sufficient peak current for BLE transmission while keeping the device small and wearable. Proper decoupling capacitors are used to ensure stable operation during wireless communication.
+The custom PCB integrates a 3.7V 100mAh LiPo battery with onboard charging and regulation. This battery capacity provides sufficient peak current for BLE transmission while keeping the device small and wearable.
 
 ------
 
@@ -40,15 +31,11 @@ The display device is a bedside alarm unit responsible for alerting the user and
 
 ### Hardware Components
 
-Microcontroller: Seeed Studio XIAO ESP32-C3
-
-Alarm output: Piezo buzzer
-
-Visual indicator: LED indicator
-
-User input: Tactile push button
-
-Power source: USB power or external power supply
+- Microcontroller: Seeed Studio XIAO ESP32-C3
+- Alarm output: Piezo buzzer
+- Visual indicator: LED indicator
+- User input: Tactile push button
+- Battery: 3.7V 100mAh LiPo battery (with protection circuit)
 
 ### How It Works
 
@@ -60,7 +47,8 @@ A single push button is used for basic interaction, such as acknowledging the al
 
 ----
 ## Diagram
-![alt text](image.png)
+![alt text](image-2.png)
 
 ## Workflow
-![alt text](image-1.png)
+![alt text](image-3.png)
+
