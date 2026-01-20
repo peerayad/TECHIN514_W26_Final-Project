@@ -24,6 +24,7 @@ The LIS3DH accelerometer measures 3-axis motion data to detect walking activity.
 The custom PCB integrates a 3.7V 100mAh LiPo battery with onboard charging and regulation. This battery capacity provides sufficient peak current for BLE transmission while keeping the device small and wearable.
 
 ![alt text](Sensor.png)
+
 ------
 
 ## 2.Display Device: Bedside Alarm Unit
@@ -44,9 +45,12 @@ At the scheduled alarm time, the display device activates the buzzer and visual 
 
 ### User Interaction
 
-A single push button is used for basic interaction, such as acknowledging the alarm or resetting the system. The alarm cannot be permanently dismissed until the walking condition is satisfied.
+A single push button is used for basic interaction, such as set the alarm.The alarm cannot be permanently dismissed until the walking condition is satisfied.
+
 ![alt text](alarm.png)
+
 ----
+
 ## 3.1 Diagram
 ![alt text](diagram.png)
 ## 3.2 Workflow
