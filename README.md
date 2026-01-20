@@ -59,3 +59,5 @@ At the scheduled alarm time, the display device activates the buzzer and visual 
 A single push button is used for basic interaction, such as acknowledging the alarm or resetting the system. The alarm cannot be permanently dismissed until the walking condition is satisfied.
 
 ----
+
+![alt text](image.png)
