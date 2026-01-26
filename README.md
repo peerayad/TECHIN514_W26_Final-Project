@@ -55,4 +55,5 @@ A single push button is used for basic interaction, such as set the alarm.The al
 ![alt text](diagram.png)
 ## 3.2 Workflow
 ![alt text](workflow.png)
-
+### 3.3 Schematic
+![alt text](Schematic/Schematic_v1.png)
