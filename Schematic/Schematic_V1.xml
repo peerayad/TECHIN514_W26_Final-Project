@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/supreme/Desktop/TECHIN514_W26_Final-Project/Schematic_V1.kicad_sch</source>
+    <date>2026-01-26T15:17:58-0800</date>
+    <tool>Eeschema 9.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Schematic_V1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Pololu_Breakout_A4988</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <description>Pololu Breakout Board, Stepper Driver A4988</description>
+      <fields>
+        <field name="Footprint">Module:Pololu_Breakout-16_15.2x20.3mm</field>
+        <field name="Datasheet">https://www.pololu.com/product/2980/pictures</field>
+        <field name="Description">Pololu Breakout Board, Stepper Driver A4988</field>
+      </fields>
+      <libsource lib="Driver_Motor" part="Pololu_Breakout_A4988" description="Pololu Breakout Board, Stepper Driver A4988"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <property name="ki_keywords" value="Pololu Breakout Board Stepper Driver A4988"/>
+      <property name="ki_fp_filters" value="Pololu*Breakout*15.2x20.3mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10216058-3798-47eb-9e93-daa3f54c5e6d</tstamps>
+    </comp>
+    <comp ref="Brd1">
+      <value>SSD1306</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SSD1306-128x64_OLED (1)" part="SSD1306" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <property name="ki_fp_filters" value="SSD1306-128x64_OLED:SSD1306"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bdb5a92-ec18-4de5-8b17-970ca34fc64c</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <datasheet>~</datasheet>
+      <description>Single-cell battery</description>
+      <fields>
+        <field name="Sim.Device">V</field>
+        <field name="Sim.Type">DC</field>
+        <field name="Sim.Pins">1=+ 2=-</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single-cell battery</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sim.Device" value="V"/>
+      <property name="Sim.Type" value="DC"/>
+      <property name="Sim.Pins" value="1=+ 2=-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18207be1-0243-4bdb-adc8-f197fc6c30c3</tstamps>
+    </comp>
+    <comp ref="BT3">
+      <value>Battery_Cell</value>
+      <datasheet>~</datasheet>
+      <description>Single-cell battery</description>
+      <fields>
+        <field name="Sim.Device">V</field>
+        <field name="Sim.Type">DC</field>
+        <field name="Sim.Pins">1=+ 2=-</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single-cell battery</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sim.Device" value="V"/>
+      <property name="Sim.Type" value="DC"/>
+      <property name="Sim.Pins" value="1=+ 2=-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c696f26-31d0-4e16-bbdb-ce89027737a1</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c7cdc4c-025b-4c9c-9425-2c68e1582dbb</tstamps>
+    </comp>
+    <comp ref="LS1">
+      <value>CEM-1203(42)</value>
+      <footprint>CUI_CEM-1203(42)</footprint>
+      <fields>
+        <field name="MF">CUI</field>
+        <field name="DESCRIPTION">Audio Magnetic 3Vo-p 5Vo-p 35mA 3.5Vo-p 85dBA Wire Lead Through Hole Tray</field>
+        <field name="PACKAGE">CUI</field>
+        <field name="PRICE">0.49 USD</field>
+        <field name="MP">CEM-1203_42_</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="Footprint">CUI_CEM-1203(42)</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CEM-1203_42_" part="CEM-1203(42)" description=""/>
+      <property name="MF" value="CUI"/>
+      <property name="DESCRIPTION" value="Audio Magnetic 3Vo-p 5Vo-p 35mA 3.5Vo-p 85dBA Wire Lead Through Hole Tray"/>
+      <property name="PACKAGE" value="CUI"/>
+      <property name="PRICE" value="0.49 USD"/>
+      <property name="MP" value="CEM-1203_42_"/>
+      <property name="AVAILABILITY" value="Good"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f86f11e-9b67-4a9c-b29b-1e4f759afba6</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Stepper_Motor_bipolar</value>
+      <datasheet>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</datasheet>
+      <description>4-wire bipolar stepper motor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</field>
+        <field name="Description">4-wire bipolar stepper motor</field>
+      </fields>
+      <libsource lib="Motor" part="Stepper_Motor_bipolar" description="4-wire bipolar stepper motor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <property name="ki_keywords" value="bipolar stepper motor"/>
+      <property name="ki_fp_filters" value="PinHeader*P2.54mm*Vertical* TerminalBlock* Motor*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fca8847c-9b0d-4c67-b62c-c04913e3cb15</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>B3F-1000</value>
+      <footprint>SW_B3F-1000</footprint>
+      <fields>
+        <field name="MANUFACTURER">Omron</field>
+        <field name="Footprint">SW_B3F-1000</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="B3F-1000" part="B3F-1000" description=""/>
+      <property name="MANUFACTURER" value="Omron"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>653451a9-1802-4a63-92f1-6b6857b2e7c8</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single Pole Single Throw (SPST) switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5517b3db-3064-495c-9c87-0d42eda1ba4f</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single Pole Single Throw (SPST) switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b844feaa-7cb7-47f8-aa47-53cd5ae160e3</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>ESP32C3-footprint-eagle_single_device_kicad:MOUDLE14P-SMD-2.54-21X17.8MM</footprint>
+      <fields>
+        <field name="Footprint">ESP32C3-footprint-eagle_single_device_kicad:MOUDLE14P-SMD-2.54-21X17.8MM</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ESP32C3-footprint-eagle_single_device_kicad" part="MOUDLE-SEEEDUINO-XIAO-ESP32C3-SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47e7ef82-f50d-4795-9c54-08997b406368</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LIS3DH</value>
+      <footprint>Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/cd00274221.pdf</datasheet>
+      <description>3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-16</description>
+      <fields>
+        <field name="Footprint">Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/cd00274221.pdf</field>
+        <field name="Description">3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-16</field>
+      </fields>
+      <libsource lib="Sensor_Motion" part="LIS3DH" description="3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <property name="ki_keywords" value="3-axis accelerometer i2c spi mems"/>
+      <property name="ki_fp_filters" value="LGA*3x3mm*P0.5mm*LayoutBorder3x5y*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cd83203-ebc0-43a1-aef2-43689ff0d542</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>~</value>
+      <footprint>ESP32C3-footprint-eagle_single_device_kicad:MOUDLE14P-SMD-2.54-21X17.8MM</footprint>
+      <fields>
+        <field name="Footprint">ESP32C3-footprint-eagle_single_device_kicad:MOUDLE14P-SMD-2.54-21X17.8MM</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ESP32C3-footprint-eagle_single_device_kicad" part="MOUDLE-SEEEDUINO-XIAO-ESP32C3-SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schematic_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa92b653-e92e-460c-99e2-ce2ca37a21de</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="B3F-1000" part="B3F-1000">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">B3F-1000</field>
+        <field name="Footprint">SW_B3F-1000</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MANUFACTURER">Omron</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEM-1203_42_" part="CEM-1203(42)">
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">CEM-1203(42)</field>
+        <field name="Footprint">CUI_CEM-1203(42)</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">CUI</field>
+        <field name="DESCRIPTION">Audio Magnetic 3Vo-p 5Vo-p 35mA 3.5Vo-p 85dBA Wire Lead Through Hole Tray</field>
+        <field name="PACKAGE">CUI</field>
+        <field name="PRICE">0.49 USD</field>
+        <field name="MP">CEM-1203_42_</field>
+        <field name="AVAILABILITY">Good</field>
+      </fields>
+      <pins>
+        <pin num="N" name="" type="passive"/>
+        <pin num="P" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single-cell battery</field>
+        <field name="Sim.Device">V</field>
+        <field name="Sim.Type">DC</field>
+        <field name="Sim.Pins">1=+ 2=-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Motor" part="Pololu_Breakout_A4988">
+      <description>Pololu Breakout Board, Stepper Driver A4988</description>
+      <docs>https://www.pololu.com/product/2980/pictures</docs>
+      <footprints>
+        <fp>Pololu*Breakout*15.2x20.3mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Pololu_Breakout_A4988</field>
+        <field name="Footprint">Module:Pololu_Breakout-16_15.2x20.3mm</field>
+        <field name="Datasheet">https://www.pololu.com/product/2980/pictures</field>
+        <field name="Description">Pololu Breakout Board, Stepper Driver A4988</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="1B" type="output"/>
+        <pin num="4" name="1A" type="output"/>
+        <pin num="5" name="2A" type="output"/>
+        <pin num="6" name="2B" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VMOT" type="power_in"/>
+        <pin num="9" name="~{ENABLE}" type="input"/>
+        <pin num="10" name="MS1" type="input"/>
+        <pin num="11" name="MS2" type="input"/>
+        <pin num="12" name="MS3" type="input"/>
+        <pin num="13" name="~{RESET}" type="input"/>
+        <pin num="14" name="~{SLEEP}" type="input"/>
+        <pin num="15" name="STEP" type="input"/>
+        <pin num="16" name="DIR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32C3-footprint-eagle_single_device_kicad" part="MOUDLE-SEEEDUINO-XIAO-ESP32C3-SMD">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">ESP32C3-footprint-eagle_single_device_kicad:MOUDLE14P-SMD-2.54-21X17.8MM</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="bidirectional"/>
+        <pin num="-" name="-" type="bidirectional"/>
+        <pin num="1" name="PA02_A0_D0" type="bidirectional"/>
+        <pin num="2" name="PA4_A1_D1" type="bidirectional"/>
+        <pin num="3" name="PA10_A2_D2" type="bidirectional"/>
+        <pin num="4" name="PA11_A3_D3" type="bidirectional"/>
+        <pin num="5" name="PA8_A4_D4_SDA" type="bidirectional"/>
+        <pin num="6" name="PA9_A5_D5_SCL" type="bidirectional"/>
+        <pin num="7" name="PB08_A6_D6_TX" type="bidirectional"/>
+        <pin num="8" name="PB09_A7_D7_RX" type="bidirectional"/>
+        <pin num="9" name="PA7_A8_D8_SCK" type="bidirectional"/>
+        <pin num="10" name="PA5_A9_D9_MISO" type="bidirectional"/>
+        <pin num="11" name="PA6_A10_D10_MOSI" type="bidirectional"/>
+        <pin num="12" name="3V3" type="bidirectional"/>
+        <pin num="13" name="GND" type="bidirectional"/>
+        <pin num="14" name="5V" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Stepper_Motor_bipolar">
+      <description>4-wire bipolar stepper motor</description>
+      <docs>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*Vertical*</fp>
+        <fp>TerminalBlock*</fp>
+        <fp>Motor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Stepper_Motor_bipolar</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</field>
+        <field name="Description">4-wire bipolar stepper motor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SSD1306-128x64_OLED (1)" part="SSD1306">
+      <footprints>
+        <fp>SSD1306-128x64_OLED:SSD1306</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Brd</field>
+        <field name="Value">SSD1306</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="LIS3DH">
+      <description>3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-16</description>
+      <docs>https://www.st.com/resource/en/datasheet/cd00274221.pdf</docs>
+      <footprints>
+        <fp>LGA*3x3mm*P0.5mm*LayoutBorder3x5y*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LIS3DH</field>
+        <field name="Footprint">Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/cd00274221.pdf</field>
+        <field name="Description">3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD_IO" type="power_in"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="SPC" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SDI" type="input"/>
+        <pin num="7" name="SDO" type="output"/>
+        <pin num="8" name="CS" type="input"/>
+        <pin num="9" name="INT2" type="output"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="INT1" type="output"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="ADC3" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+        <pin num="15" name="ADC2" type="input"/>
+        <pin num="16" name="ADC1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single Pole Single Throw (SPST) switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="B3F-1000">
+      <uri>/Users/supreme/Downloads/B3F-1000/B3F-1000.lib</uri>
+    </library>
+    <library logical="CEM-1203_42_">
+      <uri>/Users/supreme/Downloads/CEM-1203_42_ (1)/CEM-1203_42_.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Volumes/KiCad/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Driver_Motor">
+      <uri>/Volumes/KiCad/KiCad/KiCad.app/Contents/SharedSupport/symbols//Driver_Motor.kicad_sym</uri>
+    </library>
+    <library logical="ESP32C3-footprint-eagle_single_device_kicad">
+      <uri>/Users/supreme/Downloads/ESP32C3-footprint-eagle_single_device_kicad.lbr</uri>
+    </library>
+    <library logical="Motor">
+      <uri>/Volumes/KiCad/KiCad/KiCad.app/Contents/SharedSupport/symbols//Motor.kicad_sym</uri>
+    </library>
+    <library logical="SSD1306-128x64_OLED (1)">
+      <uri>/Users/supreme/Downloads/SSD1306-128x64_OLED (1).lib</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>/Volumes/KiCad/KiCad/KiCad.app/Contents/SharedSupport/symbols//Sensor_Motion.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Volumes/KiCad/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND" class="Default">
+      <node ref="A1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="BT3" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="Brd1" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LS1" pin="N" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U2" pin="10" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="Net-(A1-1A)" class="Default">
+      <node ref="A1" pin="4" pinfunction="1A" pintype="output"/>
+      <node ref="M1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(A1-1B)" class="Default">
+      <node ref="A1" pin="3" pinfunction="1B" pintype="output"/>
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(A1-2A)" class="Default">
+      <node ref="A1" pin="5" pinfunction="2A" pintype="output"/>
+      <node ref="M1" pin="3" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(A1-2B)" class="Default">
+      <node ref="A1" pin="6" pinfunction="2B" pintype="output"/>
+      <node ref="M1" pin="4" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(A1-DIR)" class="Default">
+      <node ref="A1" pin="16" pinfunction="DIR" pintype="input"/>
+      <node ref="Brd1" pin="4" pinfunction="SDA" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="PA8_A4_D4_SDA" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(A1-STEP)" class="Default">
+      <node ref="A1" pin="15" pinfunction="STEP" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="PA11_A3_D3" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(A1-VDD)" class="Default">
+      <node ref="A1" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="5V" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(A1-~{ENABLE})" class="Default">
+      <node ref="A1" pin="9" pinfunction="~{ENABLE}" pintype="input"/>
+      <node ref="Brd1" pin="3" pinfunction="SCL" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="PA9_A5_D5_SCL" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Net-(BT1-+)" class="Default">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(BT3-+)" class="Default">
+      <node ref="BT3" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(Brd1-VCC)" class="Default">
+      <node ref="Brd1" pin="2" pinfunction="VCC" pintype="input"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LS1" pin="P" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="3V3" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Net-(U1-3V3)" class="Default">
+      <node ref="U1" pin="12" pinfunction="3V3" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U2" pin="14" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="14" name="Net-(U1-PA8_A4_D4_SDA)" class="Default">
+      <node ref="U1" pin="5" pinfunction="PA8_A4_D4_SDA" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(U1-PA9_A5_D5_SCL)" class="Default">
+      <node ref="U1" pin="6" pinfunction="PA9_A5_D5_SCL" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="SPC" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(A1-MS1-Pad10)" class="Default">
+      <node ref="A1" pin="10" pinfunction="MS1" pintype="input"/>
+    </net>
+    <net code="17" name="unconnected-(A1-MS2-Pad11)" class="Default">
+      <node ref="A1" pin="11" pinfunction="MS2" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(A1-MS3-Pad12)" class="Default">
+      <node ref="A1" pin="12" pinfunction="MS3" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(A1-VMOT-Pad8)" class="Default">
+      <node ref="A1" pin="8" pinfunction="VMOT" pintype="power_in"/>
+    </net>
+    <net code="20" name="unconnected-(A1-~{RESET}-Pad13)" class="Default">
+      <node ref="A1" pin="13" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(A1-~{SLEEP}-Pad14)" class="Default">
+      <node ref="A1" pin="14" pinfunction="~{SLEEP}" pintype="input"/>
+    </net>
+    <net code="22" name="unconnected-(S1-Pad2)" class="Default">
+      <node ref="S1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(S1-Pad3)" class="Default">
+      <node ref="S1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(S1-Pad4)" class="Default">
+      <node ref="S1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(SW2-A-Pad1)" class="Default">
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(SW3-A-Pad1)" class="Default">
+      <node ref="SW3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(U1-5V-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="5V" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(U1-PA02_A0_D0-Pad1)" class="Default">
+      <node ref="U1" pin="1" pinfunction="PA02_A0_D0" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(U1-PA4_A1_D1-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="PA4_A1_D1" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(U1-PA5_A9_D9_MISO-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="PA5_A9_D9_MISO" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(U1-PA6_A10_D10_MOSI-Pad11)" class="Default">
+      <node ref="U1" pin="11" pinfunction="PA6_A10_D10_MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(U1-PA7_A8_D8_SCK-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="PA7_A8_D8_SCK" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(U1-PA10_A2_D2-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="PA10_A2_D2" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(U1-PA11_A3_D3-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="PA11_A3_D3" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(U1-PB08_A6_D6_TX-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="PB08_A6_D6_TX" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(U1-PB09_A7_D7_RX-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="PB09_A7_D7_RX" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="unconnected-(U1-Pad+)" class="Default">
+      <node ref="U1" pin="+" pinfunction="+" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="unconnected-(U1-Pad-)" class="Default">
+      <node ref="U1" pin="-" pinfunction="-" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(U2-ADC1-Pad16)" class="Default">
+      <node ref="U2" pin="16" pinfunction="ADC1" pintype="input"/>
+    </net>
+    <net code="40" name="unconnected-(U2-ADC2-Pad15)" class="Default">
+      <node ref="U2" pin="15" pinfunction="ADC2" pintype="input"/>
+    </net>
+    <net code="41" name="unconnected-(U2-ADC3-Pad13)" class="Default">
+      <node ref="U2" pin="13" pinfunction="ADC3" pintype="input"/>
+    </net>
+    <net code="42" name="unconnected-(U2-CS-Pad8)" class="Default">
+      <node ref="U2" pin="8" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="43" name="unconnected-(U2-INT1-Pad11)" class="Default">
+      <node ref="U2" pin="11" pinfunction="INT1" pintype="output"/>
+    </net>
+    <net code="44" name="unconnected-(U2-INT2-Pad9)" class="Default">
+      <node ref="U2" pin="9" pinfunction="INT2" pintype="output"/>
+    </net>
+    <net code="45" name="unconnected-(U2-NC-Pad2)" class="Default">
+      <node ref="U2" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U2-NC-Pad3)" class="Default">
+      <node ref="U2" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U2-SDO-Pad7)" class="Default">
+      <node ref="U2" pin="7" pinfunction="SDO" pintype="output"/>
+    </net>
+    <net code="48" name="unconnected-(U3-PA02_A0_D0-Pad1)" class="Default">
+      <node ref="U3" pin="1" pinfunction="PA02_A0_D0" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="unconnected-(U3-PA4_A1_D1-Pad2)" class="Default">
+      <node ref="U3" pin="2" pinfunction="PA4_A1_D1" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="unconnected-(U3-PA5_A9_D9_MISO-Pad10)" class="Default">
+      <node ref="U3" pin="10" pinfunction="PA5_A9_D9_MISO" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="unconnected-(U3-PA6_A10_D10_MOSI-Pad11)" class="Default">
+      <node ref="U3" pin="11" pinfunction="PA6_A10_D10_MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="unconnected-(U3-PA7_A8_D8_SCK-Pad9)" class="Default">
+      <node ref="U3" pin="9" pinfunction="PA7_A8_D8_SCK" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="unconnected-(U3-PA10_A2_D2-Pad3)" class="Default">
+      <node ref="U3" pin="3" pinfunction="PA10_A2_D2" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(U3-PB08_A6_D6_TX-Pad7)" class="Default">
+      <node ref="U3" pin="7" pinfunction="PB08_A6_D6_TX" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(U3-PB09_A7_D7_RX-Pad8)" class="Default">
+      <node ref="U3" pin="8" pinfunction="PB09_A7_D7_RX" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(U3-Pad+)" class="Default">
+      <node ref="U3" pin="+" pinfunction="+" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(U3-Pad-)" class="Default">
+      <node ref="U3" pin="-" pinfunction="-" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
