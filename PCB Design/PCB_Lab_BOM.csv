@@ -1,0 +1,7 @@
+"#","Reference","Qty","Value","Footprint","DNP"
+"1","C1, C2, C3, C4","4","C","Capacitor_SMD:C_0805_2012Metric",""
+"2","D1","1","LED","LED_SMD:LED_0805_2012Metric",""
+"3","J1","1","Conn_01x04","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
+"4","R1, R2, R3, R4, R5","5","R","Resistor_SMD:R_0805_2012Metric",""
+"5","U1","1","ADP3331ARTZ-REEL7","Package_TO_SOT_SMD:SOT-23-6",""
+"6","U2","1","BME280","Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering",""
